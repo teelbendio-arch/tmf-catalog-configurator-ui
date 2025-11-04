@@ -74,7 +74,7 @@ function App() {
   async function createBranch() {
     const name = prompt('New workspace name?')
 
-    console.log('Creating branch:', name);
+    console.log('Creating branch new:', name);
 
     if (!name) return
     await git.branch({ fs, dir, ref: name })
