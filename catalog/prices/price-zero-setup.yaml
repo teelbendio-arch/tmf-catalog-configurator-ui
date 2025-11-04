@@ -1,0 +1,7 @@
+id: price-zero
+name: Zero Setup Fee
+priceType: oneTime
+price:
+  taxIncludedAmount:
+    unit: EUR
+    value: 0.0

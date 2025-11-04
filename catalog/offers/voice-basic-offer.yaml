@@ -1,0 +1,11 @@
+id: offer-voice-basic
+name: Basic Voice Offer
+description: 12-month contract, 0 EUR setup
+productOfferingPrice:
+  - $ref: ../prices/price-zero-setup.yaml
+bundledProductOffering:
+  - $ref: ../offers/voice-addons.yaml
+productSpecification:
+  - $ref: ../products/mobile-voice.yaml
+validFor:
+  startDateTime: 2025-01-01T00:00:00Z

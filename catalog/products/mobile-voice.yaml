@@ -1,0 +1,15 @@
+id: prod-mobile-voice
+name: Mobile Voice Plan
+description: Unlimited local calls
+brand: MyTelco
+productNumber: MV-001
+lifecycleStatus: Active
+isBundle: false
+productSpecificationCharacteristic:
+  - name: minutesIncluded
+    valueType: integer
+    characteristicValue:
+      - value: 9999
+        unitOfMeasure: minutes
+validFor:
+  startDateTime: 2025-01-01T00:00:00Z
